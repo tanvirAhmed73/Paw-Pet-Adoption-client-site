@@ -1,0 +1,24 @@
+
+.custom-font {
+    font-family: "Anta", sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+.custom-text-style{
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+    
+}
+.background-style{
+    background-color: rgb(226, 226, 226);
+    border-radius: 0px 0px 55px 55px;
+}
+.margin-style{
+    margin-right: 12px;
+}
+.position-style{
+    display: flex;
+    justify-content: center;
+}

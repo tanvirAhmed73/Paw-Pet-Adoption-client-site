@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-right: 20px;
+    padding: 0px 9px 0px 9px;
+}
+
+ul li:hover{
+    background-color: rgb(136, 200, 255);
+    border-radius: 5px;
+}
+
+.icon-close{
+    display: none;
+}
+
+@media only screen and (max-width:426px){
+    .icon-close{
+        display: block;
+        margin-right: 25px;
+        margin-top: 0px;
+        font-size: 24px;
+    }
+    
+    .menu-right{
+        margin-top: 30px; 
+        
+        background-color: rgb(198, 198, 198);
+    }
+
+    ul li{
+        font-size: 10px;
+        display: block;
+    }
+
+    ul{
+        display: none;
+    }
+
+    ul.open {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .hover-name:hover{
+        color: antiquewhite;
+    }
+}
